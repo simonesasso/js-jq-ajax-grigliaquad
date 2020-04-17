@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  margin-top: calc((100vh - 600px) / 2);
+}
+
+.quadrato{
+  width: calc(100% / 6);
+  height: calc(100% / 6);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+.giallo{
+  background-color: yellow;
+}
+.verde{
+  background-color: green;
+}
+.active{
+  
+}
