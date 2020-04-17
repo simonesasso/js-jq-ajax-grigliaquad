@@ -1,5 +1,5 @@
 
-for (var i = 0; i < 37; i++) {
+for (var i = 0; i < 36; i++) {
   $(".container").append("<div class='quadrato'></div>");
 }
 
